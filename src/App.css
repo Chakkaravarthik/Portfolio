@@ -1,0 +1,13 @@
+.fonthead{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blueviolet;
+}
+
+.bordercolor{
+    border-color: blueviolet !important;
+    background-color: rgb(247, 243, 252);
+}
+.fixed{
+    position: fixed;
+    width: 90vw;
+}

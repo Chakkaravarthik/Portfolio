@@ -1,0 +1,29 @@
+.carddisplay{
+    width: 80vw;
+}
+.color{
+    color: #8a2be2;
+}
+.svgimg{
+    width: 100px;
+}
+
+.paddingtop100{
+    padding: 0px 80px 80px 80px;
+}
+
+.paddingtop100{
+    padding: 50px 80px 80px 80px;
+}
+
+.fontweight{
+    font-size: 4rem;
+}
+
+.fontweight2rem{
+    font-size: 2.5rem;
+}
+
+.opacity{
+    opacity: 75%;
+}
