@@ -23,7 +23,7 @@ function ShowCertificate() {
     return (
         <>
             <div className="d-flex flex-column align-items-center p-3">
-                <div className="colorh p-3">Certificate</div>
+                <h1 className="colorh p-3">Certificate</h1>
                 <div className="d-flex justify-content-center paadingtop">
                     <div className="widthset d-flex">
                         {/* Cards for images */}

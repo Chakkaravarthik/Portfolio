@@ -5,9 +5,9 @@ function AboutMe() {
         <>
             <div className="container-fluid d-flex justify-content-center paddingtop50">
                 <div className="carddisplay d-flex justify-content-center ">
-                    <div className="d-flex flex-column justify-content-center  paddingtop100">
+                    <div className="d-flex flex-column justify-content-center  paddingtop50">
                         <div className='fontweight2rem p-2'>Hello World, I am</div>
-                        <div className='color fontweight p-2'>Chakkaravarthi K</div>
+                        <div className='color fontweight '>Chakkaravarthi K</div>
                         <div className='fs-3 p-2'>A Full Stack Developer</div>
                         <div className='fs-4 opacity p-2'>"Building dynamic, full-stack web applications with MERN Stack."</div>
                         <div className="d-flex justify-content-start ">
@@ -44,7 +44,7 @@ function AboutMe() {
                             </a>
                         </div>
                     </div>
-                    <div className=' paddingtop100'>
+                    <div className=' paddingtop50'>
                         <div className=' p-3 d-flex justify-content-center'>
                             <svg width="350px" height="350px" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M147.401 313.003C39.8487 313.003 42.2988 313.003 87.1135 209.526V275.47" stroke="#8a2be2" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
