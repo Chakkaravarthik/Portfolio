@@ -7,8 +7,8 @@ function Project() {
             <div className='d-flex flex-column justify-content-center align-items-center pt-3 '>
                 <h1 className='projecthead size'>Projects</h1>
                 <ProjectList1 />
-                <ProjectList2 />
                 <ProjectList3 />
+                <ProjectList2 />
                 <ProjectList4 />
             </div>
         </>
