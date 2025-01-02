@@ -9,6 +9,7 @@ function Project() {
                 <ProjectList1 />
                 <ProjectList2 />
                 <ProjectList3 />
+                <ProjectList4 />
             </div>
         </>
     )
@@ -63,7 +64,7 @@ function ProjectList2() {
     )
 }
 
-function ProjectList3() {
+function ProjectList4() {
 
     return (
         <>
@@ -75,6 +76,29 @@ function ProjectList3() {
                 <div>
                     <a href='https://github.com/Chakkaravarthik/shopping-cart' target='_blank'className='p-2 text-decoration-none'>Front End Code</a>
                     <a href='https://effulgent-twilight-3bb5a2.netlify.app/' target='_blank' className='p-2 text-decoration-none'>Demo Link</a>
+                </div>
+            </div>
+        </>
+    )
+}
+
+function ProjectList3() {
+
+    return (
+        <>
+            <div className='projectview p-3 shadow-lg m-3'>
+                <h3 className='projecthead p-2' >Task management</h3>
+                <h4 className='projectdescription'>Project Overview:</h4>
+                <h6 className='projectdescription'>A simple and efficient task management app to create, update, and track your tasks. Stay organized and boost productivity with an easy-to-use interface. </h6>
+                <h4 className='projectdescription '>Technologies Used</h4>
+                <ul><b>Frontend:</b> React, React Router DOM, Redux, React Hooks (useState, useEffect)</ul>
+                <ul><b>Backend:</b> Node.js, Express.js, JWT (JSON Web Token), bcrypt.js, Middleware</ul>
+                <ul><b>Database:</b> MongoDB, Mongoose</ul>
+                <ul><b>Authentication & Authorization:</b> JWT-based user authentication, bcrypt for password hashing</ul>
+                <div>
+                    <a href='https://github.com/Chakkaravarthik/task-todo' target='_blank'className='p-2 text-decoration-none'>Front End Code</a>
+                    <a href='https://github.com/Chakkaravarthik/task-todo_be' target='_blank'className='p-2 text-decoration-none'>Back End Code</a>
+                    <a href='https://taskmanager12345.netlify.app/login' target='_blank' className='p-2 text-decoration-none'>Demo Link</a>
                 </div>
             </div>
         </>
