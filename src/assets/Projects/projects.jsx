@@ -99,7 +99,7 @@ function ProjectList3() {
                 <div>
                     <a href='https://github.com/Chakkaravarthik/task-todo' target='_blank'className='p-2 text-decoration-none'>Front End Code</a>
                     <a href='https://github.com/Chakkaravarthik/task-todo_be' target='_blank'className='p-2 text-decoration-none'>Back End Code</a>
-                    <a href='https://taskmanager12345.netlify.app/login' target='_blank' className='p-2 text-decoration-none'>Demo Link</a>
+                    <a href='https://task-management-app-1.netlify.app/login' target='_blank' className='p-2 text-decoration-none'>Demo Link</a>
                 </div>
             </div>
         </>
