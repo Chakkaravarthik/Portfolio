@@ -92,7 +92,7 @@ function ProjectList3() {
                 <h4 className='projectdescription'>Project Overview:</h4>
                 <h6 className='projectdescription'>A simple and efficient task management app to create, update, and track your tasks. Stay organized and boost productivity with an easy-to-use interface. </h6>
                 <h4 className='projectdescription '>Technologies Used</h4>
-                <ul><b>Frontend:</b> React, React Router DOM, Redux, React Hooks (useState, useEffect)</ul>
+                <ul><b>Frontend:</b> React, React Router DOM, React Hooks (useState, useEffect)</ul>
                 <ul><b>Backend:</b> Node.js, Express.js, JWT (JSON Web Token), bcrypt.js, Middleware</ul>
                 <ul><b>Database:</b> MongoDB, Mongoose</ul>
                 <ul><b>Authentication & Authorization:</b> JWT-based user authentication, bcrypt for password hashing</ul>
