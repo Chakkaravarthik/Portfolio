@@ -6,6 +6,7 @@ function Project() {
         <>
             <div className='d-flex flex-column justify-content-center align-items-center pt-3 '>
                 <h1 className='projecthead size'>Projects</h1>
+                <ProjectList5 />
                 <ProjectList1 />
                 <ProjectList3 />
                 <ProjectList2 />
@@ -99,6 +100,30 @@ function ProjectList3() {
                     <a href='https://github.com/Chakkaravarthik/task-todo' target='_blank'className='p-2 text-decoration-none'>Front End Code</a>
                     <a href='https://github.com/Chakkaravarthik/task-todo_be' target='_blank'className='p-2 text-decoration-none'>Back End Code</a>
                     <a href='https://taskmanager12345.netlify.app/login' target='_blank' className='p-2 text-decoration-none'>Demo Link</a>
+                </div>
+            </div>
+        </>
+    )
+}
+
+
+function ProjectList5() {
+
+    return (
+        <>
+            <div className='projectview p-3 shadow-lg m-3'>
+                <h3 className='projecthead p-2' >Movie Ticket Booking</h3>
+                <h4 className='projectdescription'>Project Overview:</h4>
+                <h6 className='projectdescription'>The Movie Ticket Booking App offers a seamless ticket booking experience with secure payments and instant confirmations. Users can easily select a movie, book tickets, and complete transactions hassle-free.</h6>
+                <h4 className='projectdescription '>Technologies Used</h4>
+                <ul><b>Frontend:</b> React, React Router DOM, React Hooks (useState, useEffect)</ul>
+                <ul><b>Backend:</b> Node.js, Express.js, JWT (JSON Web Token), bcrypt.js, Middleware</ul>
+                <ul><b>Database:</b> MongoDB, Mongoose</ul>
+                <ul><b>Authentication & Authorization:</b> JWT-based user authentication, bcrypt for password hashing</ul>
+                <div>
+                    <a href='https://github.com/Chakkaravarthik/movieTicket_fe' target='_blank'className='p-2 text-decoration-none'>Front End Code</a>
+                    <a href='https://github.com/Chakkaravarthik/be' target='_blank'className='p-2 text-decoration-none'>Back End Code</a>
+                    <a href='https://movieticketbookingapplication.netlify.app/login' target='_blank' className='p-2 text-decoration-none'>Demo Link</a>
                 </div>
             </div>
         </>
