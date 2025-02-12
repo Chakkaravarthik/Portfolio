@@ -35,7 +35,7 @@ function ProjectList1() {
                 <div>
                     <a href='https://github.com/Chakkaravarthik/CRM_FE' target='_blank' className='p-2 text-decoration-none'>Front End Code</a>
                     <a href='https://github.com/Chakkaravarthik/CRM_BE' target='_blank' className='p-2 text-decoration-none' >Back End Code</a>
-                    <a href='https://crmapplication123.netlify.app/' target='_blank' className='p-2 text-decoration-none'>Demo Link</a>
+                    <a href='https://stellular-marzipan-57118a.netlify.app/login' target='_blank' className='p-2 text-decoration-none'>Demo Link</a>
                 </div>
             </div>
         </>
