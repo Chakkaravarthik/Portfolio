@@ -21,7 +21,7 @@ function AboutMe() {
                                     <rect width="32" height="32" fill="none" />
                                 </svg>
                             </a>
-                            <a className='p-3' href='https://drive.google.com/file/d/10ZcQx563xOLgiZbbWh9T7cH_t6pQbycE/view?usp=drive_link' target='_blank'>
+                            <a className='p-3' href='https://drive.google.com/file/d/10ZcQx563xOLgiZbbWh9T7cH_t6pQbycE/view?usp=sharing' target='_blank'>
                                 <svg height="50px" width="50px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                     viewBox="0 0 512 512" xml:space="preserve">
                                     <g>

@@ -38,7 +38,7 @@ export default function Workexp() {
                                 </svg>
                             </div>
                             <div>
-                                <h3 className='p-1'>Full Stack Developer</h3>
+                                <h3 className='p-1'>Implementation Engineer</h3>
                                 <p className='p fs-5'>Printvibes Automation Pvt Ltd</p>
                                 <p className=' p fs-5 opacity'>Jan 2022 - Present</p>
                             </div>

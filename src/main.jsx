@@ -7,16 +7,26 @@ import Project from './assets/Projects/projects.jsx'
 import WorkExpskill from './assets/workexperiance/workexp.jsx'
 import Workexp from './assets/workexp/workexp.jsx'
 import Contact from './assets/contact/contact.jsx'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-    <AboutMe />
-    <ShowCertificate />
-    <WorkExpskill />
-    
-    <Project />
-    <Workexp  />
-    <Contact  />
-  </StrictMode>,
+  <BrowserRouter>
+    <Routes>
+      <Route path='*' element={
+        <div>
+          <App />
+          <div>
+            <Routes>
+              <Route path='/' element={<AboutMe />} />
+              <Route path='/certification' element={<ShowCertificate />} />
+              <Route path='/skills' element={<WorkExpskill />} />
+              <Route path='/projects' element={<Project />} />
+              <Route path='/experiance' element={<Workexp />} />
+              <Route path='/contact' element={<Contact />} />
+            </Routes>
+          </div>
+        </div>
+      } />
+    </Routes>
+  </BrowserRouter>,
 )
